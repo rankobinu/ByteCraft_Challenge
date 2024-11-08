@@ -1,0 +1,186 @@
+@font-face {
+    font-family: LeagueSpartan;
+    src: url(LeagueSpartan-VariableFont_wght.ttf);
+}
+body{
+    background-image: 
+    url("bg-pattern-top-desktop.svg"),
+    url("bg-pattern-bottom-desktop.svg");
+    background-repeat: no-repeat,no-repeat;  
+    background-position: top left, bottom right; 
+    font-family: LeagueSpartan; 
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+header{
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 2em;
+}
+
+.leftS{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.rightS{
+    padding-top:13vh;
+}
+.rates{
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top:1em;
+    width:33vw;
+    height:3em;
+    background-color: hsl(300, 24%, 96%);
+    padding-left:2em ;
+    border-radius: 7px;
+}
+.rateP{
+    padding-left:2em;
+}
+.star{
+    margin-bottom: 0.1em;
+    padding-left: 0.5em;
+}
+.r2{
+    margin-left: 3em;
+}
+.r3{
+    margin-left: 6em;
+}
+.headline{
+    padding-top: 7vh;
+    padding-right: 10vw;
+}
+h1{
+    font-size: 3em;
+    color: hsl(300, 43%, 22%);
+}
+.discrp{
+    margin-top:-1.5em;
+    color: hsl(303, 10%, 53%);
+    width:28vw;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+.bottomS{
+    height:50vh;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1em;
+}
+.feed{
+    background-color: hsl(300, 43%, 22%);
+    width:20vw;
+    height:29vh;
+    padding-left:2em;
+    padding-right:2em;
+    border-radius: 10px;
+    padding-top: 1em;
+}
+.split{
+    display: grid;
+    grid-template-columns: 3.5em 1fr;
+    margin-bottom: -1em;
+}
+.imgAv{
+    height: 37px;
+    width:37px;
+    border-radius: 180px;
+    
+}
+.avatar{
+    display: flex;
+    align-items: center;
+}
+/*.titles{
+    display: flex;
+    align-items: center;
+}*/
+.f2{
+    margin-top:1em;
+}
+.f3{
+    margin-top:2em;
+}
+.pfeed,h4{
+    color:hsl(0, 0%, 100%);
+}
+h4{
+    margin-bottom:-1em ;
+}
+h5{
+    color: hsl(333, 80%, 67%);
+}
+.pfeed{
+    line-height: 1.2em;
+   
+}
+@media only screen and (max-width:375px) {
+    body{
+        background-image: 
+        url("bg-pattern-bottom-mobile.svg"),
+        url("bg-pattern-top-mobile.svg");
+        background-repeat: no-repeat,no-repeat;
+        text-align: center;
+        background-position: bottom right, top left;
+        
+    }
+    header, .rightS, .bottomS, .leftS{
+        display: inline-block;
+        height:auto;
+        
+    }
+    h1{
+        font-size: 2em;
+    }
+    .headline{
+        width: 100%;
+        padding-bottom: 2px;
+    }
+    .discrp{
+        width:100%;
+        
+        
+    }
+    .rightS{
+        padding-top: 0;
+    }
+    .r2,.r1,.r3{
+        margin-left: 0;
+    }
+    .rates{
+        width:100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 0;
+        padding-bottom: 0.5em;
+        padding-top: 0.5em;
+    } 
+    .rateP{
+        padding-left: 0;
+    }
+    .feed{
+        width:95%;
+        margin-left: -1.5em;
+        margin-right:0;
+    }
+    .f3,.f2{
+        margin-top: 1em;
+    }
+    .bottomS{
+        margin-bottom: 4em;
+    }
+    .titles{
+        text-align: left;
+    }
+    .avatar{
+        
+        padding-bottom: 3px;
+    }
+}
