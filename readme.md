@@ -40,8 +40,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live site URL: [Live site URL](https://rankobinu.github.io/ByteCraft_Challenge/)
+- Solution URL: [Solution URL](https://github.com/rankobinu/ByteCraft_Challenge)
 
 ## My process
 
